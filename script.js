@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Maa Laal Chunariya Wali", filePath: "songs/1.mp3", imagePath: "images/1.jpg"},
-    {songName: "Ab Kanha ki baari hai", filePath: "songs/2.mp3", imagePath: "images/2.jpg"},
-    {songName: "Katha Sangram ki", filePath: "songs/3.mp3", imagePath: "images/3.jpg"},
-    {songName: "Durga Hai Meri Maa,  Ambey Hai Meri Maa", filePath: "songs/4.mp3", imagePath: "images/4.jpg"},
-    {songName: "Sri Ram Ke Vansaj", filePath: "songs/5.mp3", imagePath: "images/5.png"},
-    {songName: "Ambe Ji Ki Aarti", filePath: "songs/6.mp3", imagePath: "images/6.jpg"},
-    {songName: "Meri Haar Nahi Hogi", filePath: "songs/7.mp3", imagePath: "images/7.jpg"},
-    {songName: "Pakad lo Haath Banwari Nahi To doob Jayenge", filePath: "songs/8.mp3", imagePath: "images/8.jpg"},
-    {songName: "Krishna Chakradhari", filePath: "songs/9.mp3", imagePath: "images/9.jpg"},
-    {songName: "Siya Ji se pooch rahe Anjani ke Lala", filePath: "songs/10.mp3", imagePath: "images/10.WebP"},
+    {songName: "Maa Laal Chunariya Wali", filePath: "1.mp3", imagePath: "1.jpg"},
+    {songName: "Ab Kanha ki baari hai", filePath: "2.mp3", imagePath: "2.jpg"},
+    {songName: "Katha Sangram ki", filePath: "3.mp3", imagePath: "3.jpg"},
+    {songName: "Durga Hai Meri Maa,  Ambey Hai Meri Maa", filePath: "4.mp3", imagePath: "4.jpg"},
+    {songName: "Sri Ram Ke Vansaj", filePath: "5.mp3", imagePath: "5.png"},
+    {songName: "Ambe Ji Ki Aarti", filePath: "6.mp3", imagePath: "6.jpg"},
+    {songName: "Meri Haar Nahi Hogi", filePath: "7.mp3", imagePath: "7.jpg"},
+    {songName: "Pakad lo Haath Banwari Nahi To doob Jayenge", filePath: "8.mp3", imagePath: "8.jpg"},
+    {songName: "Krishna Chakradhari", filePath: "9.mp3", imagePath: "images/9.jpg"},
+    {songName: "Siya Ji se pooch rahe Anjani ke Lala", filePath: "10.mp3", imagePath: "10.WebP"},
 ]
 
 songItems.forEach((element, i)=>{ 
